@@ -1,0 +1,2 @@
+<view>这是router页面</view>
+<button bindtap="routerOne">跳转回去</button>

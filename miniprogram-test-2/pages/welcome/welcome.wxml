@@ -1,0 +1,7 @@
+<view id='body'>
+  <image src='/image/logo.jpeg' id='logo'></image>
+  <text id='welcome'>陈刚</text>
+  <view id='welcomeOne'>
+    <text bindtap='onTap'>开始浏览</text>
+  </view>
+</view>

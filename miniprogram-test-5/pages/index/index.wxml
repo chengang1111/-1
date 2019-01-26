@@ -1,0 +1,3 @@
+<view>陈刚</view>
+<button bindtap='router'>跳转到陈飞</button>
+<view bindtap='model'>弹窗</view>

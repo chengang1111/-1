@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/router/router"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "陈刚",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [{
+      "selectedIconPath": "images/1.png",
+      "iconPath": "images/1.png",
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },{
+      "selectedIconPath": "images/1.png",
+      "iconPath": "images/1.png",
+      "pagePath": "pages/logs/logs",
+      "text": "一元投"
+    },{
+      "selectedIconPath": "images/1.png",
+      "iconPath": "images/1.png",
+      "pagePath": "pages/router/router",
+      "text": "路由"
+    }]
+  }
+}
