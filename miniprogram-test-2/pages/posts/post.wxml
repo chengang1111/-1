@@ -1,9 +1,9 @@
 <import src="post-item/post-item-template" />
 <view class='post'>
-  <swiper class='postOne' autoplay>
-    <swiper-item><image src='/image/iqiyi.png'></image></swiper-item>
-    <swiper-item><image src='/image/vr.png'></image></swiper-item>
-    <swiper-item><image src='/image/wx.png'></image></swiper-item>
+  <swiper catchtap="onSwiperItem" class='postOne' autoplay>
+    <swiper-item><image src='/image/iqiyi.png' data-postId="2"></image></swiper-item>
+    <swiper-item><image data-postId="1" src='/image/vr.png'></image></swiper-item>
+    <swiper-item><image data-postId="0" src='/image/wx.png'></image></swiper-item>
   </swiper>
   <block wx:for="{{post_key}}" wx:for-item="item" wx:key="item">
     <view catchtap='onPostTap' data-postId="{{item.postId}}">
