@@ -21,6 +21,12 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
+  onMovietap: function (event) {
+    var movieId = event.currentTarget.dataset.movieid;
+    wx.navigateTo({
+      url: '../movie-detail/movie-detail?id=' + movieId,
+    })
+  },
   onLoad: function(options) {
     var category = options.category;
     var dataUrl = "";
